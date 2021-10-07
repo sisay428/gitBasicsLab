@@ -63,7 +63,7 @@ public class GiftCard
         
         if (amount < 0.0)
         {
-            result = "The amount should not be less than zero";
+            result = "The amount should be greater than zero";
         }
         else
         {
