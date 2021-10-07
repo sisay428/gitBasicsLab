@@ -6,9 +6,11 @@ public class GiftCardApplication {
 		
 		GiftCard gc1= new GiftCard(25, 125.00);
 		GiftCard gc2= new GiftCard(50, 150.00);
+		GiftCard gc3= new GiftCard(75, 175.00);
 		ArrayList<GiftCard> giftCards= new ArrayList<GiftCard>();
 		giftCards.add(gc1);
 		giftCards.add(gc2);
+		giftCards.add(gc3);
 		int gcLength = giftCards.size();
 		for(int i=0; i< gcLength; i++) {
 			GiftCard gc= giftCards.get(i);
